@@ -151,77 +151,6 @@ npm test
 # Run tests with coverage
 npm test -- --coverage
 
-# Run specific test file
-npm test -- FileName.test.js
-🌐 Deployment
-Build for Production
-bash
-npm run build
-This creates an optimized production build in the build/ folder.
-
-Deploy to Vercel/Netlify
-Connect your GitHub repository
-
-Set build command: npm run build
-
-Set publish directory: build
-
-Add environment variables
-
-Deploy!
-
-🤝 Contributing
-We welcome contributions! Please follow these steps:
-
-Fork the repository
-
-Create a feature branch (git checkout -b feature/AmazingFeature)
-
-Commit your changes (git commit -m 'Add AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-Commit Convention
-feat: New feature
-
-fix: Bug fix
-
-docs: Documentation
-
-style: Formatting
-
-refactor: Code restructuring
-
-test: Adding tests
-
-chore: Maintenance
-
-📝 API Integration
-Example API Call
-javascript
-import api from './services/api';
-
-// Get all products
-const response = await api.get('/products');
-
-// Create new listing
-const newProduct = await api.post('/products', productData);
-Endpoints (Backend Required)
-POST /api/auth/login - User login
-
-POST /api/auth/register - User registration
-
-GET /api/products - Get all products
-
-POST /api/products - Create product
-
-GET /api/products/:id - Get single product
-
-PUT /api/products/:id - Update product
-
-DELETE /api/products/:id - Delete product
 
 ⚠️ Important Notes
 This is Frontend Only
@@ -278,20 +207,7 @@ npm update
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-👥 Team
-Praseed Karn - Project Lead & Developer
 
-Add your team members here
-
-🙏 Acknowledgments
-Icons from React Icons
-
-UI inspiration from OLX, Facebook Marketplace
-
-Thanks to all contributors
-
-📞 Support
-For support, email: praseedkarn@example.com or create an issue in the repository.
 
 📊 Project Status
 Current Version: v1.0.0 (Frontend Only)
