@@ -1,0 +1,247 @@
+.sell-product-page {
+  min-height: calc(100vh - 160px);
+  background-color: #f8f9fa;
+  padding-bottom: 50px;
+}
+
+.sell-header {
+  padding: 30px 0;
+}
+
+.sell-header h1 {
+  color: #4a6fa5;
+  margin-bottom: 15px;
+}
+
+.sell-header .lead {
+  font-size: 1.2rem;
+}
+
+.sell-form-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.form-section {
+  padding: 30px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.form-section:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  color: #4a6fa5;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.section-subtitle {
+  color: #6c757d;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.image-upload-area {
+  border: 2px dashed #dee2e6;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.image-upload-area:hover {
+  border-color: #4a6fa5;
+  background-color: rgba(74, 111, 165, 0.02);
+}
+
+.upload-placeholder {
+  cursor: pointer;
+}
+
+.upload-label {
+  cursor: pointer;
+  display: block;
+}
+
+.upload-label i {
+  color: #4a6fa5;
+  opacity: 0.7;
+}
+
+.upload-label h5 {
+  color: #495057;
+  margin-bottom: 8px;
+}
+
+.image-previews {
+  margin-top: 30px;
+}
+
+.image-preview {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-preview img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.btn-remove {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(220, 53, 69, 0.9);
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-remove:hover {
+  background: #dc3545;
+  transform: scale(1.1);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.form-label i {
+  color: #4a6fa5;
+  width: 20px;
+}
+
+.form-control, .form-select {
+  padding: 12px 15px;
+  border: 2px solid #e1e5eb;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #4a6fa5;
+  box-shadow: 0 0 0 0.2rem rgba(74, 111, 165, 0.25);
+}
+
+.form-control.is-invalid, .form-select.is-invalid {
+  border-color: #dc3545;
+}
+
+.input-group-text {
+  background-color: #f8f9fa;
+  border: 2px solid #e1e5eb;
+  border-right: none;
+  color: #6c757d;
+}
+
+.input-group .form-control {
+  border-left: none;
+}
+
+.input-group .form-control:focus {
+  border-color: #4a6fa5;
+  box-shadow: none;
+}
+
+.input-group .form-control:focus + .input-group-text {
+  border-color: #4a6fa5;
+}
+
+.tips-section {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 30px 0;
+  border-left: 4px solid #4a6fa5;
+}
+
+.tips-section h5 {
+  color: #4a6fa5;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.tips-section h5 i {
+  color: #ffc107;
+}
+
+.tips-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.tips-section li {
+  padding: 8px 0;
+  padding-left: 30px;
+  position: relative;
+  color: #495057;
+}
+
+.tips-section li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.form-actions .btn {
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #4a6fa5, #166088);
+  border: none;
+  transition: all 0.3s;
+}
+
+.form-actions .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(74, 111, 165, 0.3);
+}
+
+.form-actions .btn:disabled {
+  opacity: 0.7;
+  transform: none !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sell-form-card {
+    padding: 25px;
+  }
+  
+  .sell-header h1 {
+    font-size: 2rem;
+  }
+  
+  .form-section {
+    padding: 20px 0;
+  }
+  
+  .image-preview img {
+    height: 120px;
+  }
+}

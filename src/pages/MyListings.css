@@ -1,0 +1,84 @@
+.my-listings-page {
+  min-height: calc(100vh - 160px);
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.listings-container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.listings-header {
+  padding: 30px;
+  border-bottom: 1px solid #e9ecef;
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+}
+
+.listings-header h1 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.listings-content {
+  padding: 40px;
+  text-align: center;
+}
+
+.listings-icon {
+  font-size: 4rem;
+  color: #28a745;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.listings-content h2 {
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.listings-content p {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.listings-features {
+  text-align: left;
+  max-width: 500px;
+  margin: 30px auto;
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 4px solid #28a745;
+}
+
+.listings-features h5 {
+  color: #28a745;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.listings-features ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.listings-features li {
+  padding: 8px 0;
+  padding-left: 30px;
+  position: relative;
+  color: #495057;
+}
+
+.listings-features li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+}
